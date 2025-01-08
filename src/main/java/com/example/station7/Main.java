@@ -4,6 +4,11 @@ public class Main {
     public static void main(String[] args) {
         int[] itemPrices = { 1200, 2300, 3500, 2500, 1000, 2980, 9800, 4600, 5000, 2000 };
         // ここから
+        int all = 0;
+        for(int price: itemPrices) {
+            all += price;
+        }
+        System.out.println(all);
         // ここまで
     }
 }
